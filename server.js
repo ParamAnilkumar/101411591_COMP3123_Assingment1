@@ -17,7 +17,6 @@ mongoose.connect(DB_CONNECTION_STRING, {
 
 const SERVER_PORT = 8091;
 
-// Corrected this line
 app.use(express.json());
 app.use(express.urlencoded({ extended: true })); // Fixed typo here
 
